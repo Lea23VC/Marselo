@@ -39,7 +39,7 @@ if(!isset($_COOKIE['galleta'])) {
 					echo "<img src='".base_url()."images/".$filename.".png'><br>  ";
 					#echo "<img src='/assets/$filename.png'>"; 
 				} else {
-				echo 'QR generado con exito en: ' . $filename;
+				echo 'QR generado con exito: ';
 
 				echo "<img src='".base_url()."images/".$filename.".png'><br>  ";
 
@@ -91,7 +91,7 @@ if(!isset($_COOKIE['galleta'])) {
 				#QRcode::png("$pngAbsoluteFilePath", $pngAbsoluteFilePath, 'L', 4, 2);
 
 				QRcode::png("".base_url().$name[0]."", "images/$filename.png");
-				echo "<img src='/assets/$filename.png'>";
+				#echo "<img src='/assets/$filename.png'>";
 
 				move_uploaded_file("$filename.png", $pngAbsoluteFilePath);
 
