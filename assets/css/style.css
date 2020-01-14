@@ -1,0 +1,45 @@
+.collapse, navbar-collapse{
+	position:absolute;
+	right: 400;
+}
+
+.nav-link{
+	font-size: 22px;
+}
+
+.navbar-brand{
+	font-size: 30;
+	text-decoration: underline;
+}
+
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	color: #F7F557;
+
+}
+
+p{
+	font-size: 20;
+	text-align: center;
+}
+
+.btn{
+	display: inline-block;
+	padding: 10px 30px;
+	margin-bottom: 0;
+	margin-top: 20px;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.428571429;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: none;
+	position: relative;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	border: 2px solid;
+}
+
